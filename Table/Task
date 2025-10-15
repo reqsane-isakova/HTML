@@ -23,6 +23,8 @@
             <td>18</td>
         </tr>
     </table>
+
+
     <table border="1">
         <thead>
             <tr>
@@ -61,5 +63,40 @@
                         <td>reqsane@gmail.com</td>
                     </tr>
                 </table>
+    </table>
+   <table border="1" style="background-color: white">
+    <thread>
+        <tr style="background-color: rgb(195, 255,0); " >
+            <th>Mehsulun Adi</th>
+            <th>Mehsulun Miqdari</th>
+            <th>Mehsulun Qiymeti</th>
+        </tr>
+            <tbody>
+                <tr style="color: rgb(24, 7, 32); background-color: rgb(195, 255,0); text-align: center;">
+                    <td>Qelem</td>
+                    <td>5</td>
+                    <td>5 AZN</td>
+                </tr>
+                <tr style = "color: rgb(24, 7, 32); background-color: rgb(195, 255, 0); text-align: center;">
+                    <td>Defter</td>
+                    <td>1</td>
+                    <td>2 AZN</td>
+                </tr>
+                <tr style = "color: rgb(24, 7, 32); background-color: rgb(195, 255, 0); text-align: center;">
+                    <td>Marker</td>
+                    <td>2</td>
+                    <td>1 AZN</td>
+                </tr>
+            </tbody>
+        <tfoot>
+            <tr style = "color: rgb(24, 7, 32); background-color: rgb(195, 255, 0); text-align: center;">
+                <td><b>Umumi</b></td>
+                <td>8</td>
+                <td>8 AZN</td>
+            </tr>
+        </tfoot>
+        </thread>
+    </thread>
+   </table>
 </body>
 </html>
