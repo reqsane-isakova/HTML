@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Marketing - Sadə nümunə</title>
+  <style>
+    :root{
+      --max-w: 1000px;
+      --bg: #111;
+      --card-bg: #fff;
+      --muted: #777;
+      --accent: #222;
+    }
+    body{
+      margin:0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color:#222;
+      display:flex;
+      justify-content:center;
+      padding:40px 20px;
+    }
+    .site{
+      width:100%;
+      max-width:var(--max-w);
+      background:var(--card-bg);
+      box-shadow: 0 0 0 6px #111; /* qara çərçivə effekti */
+      overflow:hidden;
+    }
+    .topbar{
+      background:#efefef;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:8px 18px;
+      font-size:14px;
+    }
+    .nav{
+      display:flex;
+      gap:20px;
+    }
+    .nav a{
+      text-decoration:none;
+      color:#222;
+      padding:6px 4px;
+    }
+    .brand-row{
+      display:flex;
+      align-items:flex-start;
+      gap:20px;
+      padding:20px 18px;
+    }
+    .site-title{
+      font-size:28px;
+      letter-spacing:1px;
+      margin:0;
+    }
+    .site-sub{
+      font-size:12px;
+      color:var(--muted);
+      margin-top:6px;
+    }
+    .hero{
+      position:relative;
+      height:320px;
+      background:#ddd url('https://www.w3schools.com/w3images/coffee.jpg') center/cover no-repeat;
+      margin:0 18px 18px 18px;
+      border: 1px solid #ddd;
+    }
+    .hero .tag{
+      position:absolute;
+      left:18px;
+      top:18px;
+      background:rgba(255,255,255,0.85);
+      padding:8px 12px;
+      font-size:13px;
+      border-radius:3px;
+      box-shadow:0 1px 2px rgba(0,0,0,0.1);
+    }
+    .hero-controls{
+      position:absolute;
+      left:0;right:0;bottom:10px;
+      display:flex;
+      justify-content:center;
+      gap:8px;
+    }
+    .dot{
+      width:10px;height:10px;border-radius:50%;
+      background:rgba(255,255,255,0.6);
+      border:2px solid rgba(0,0,0,0.1);
+    }
+    .divider{
+      height:10px;
+      background:#111;
+      margin:18px;
+    }
+    .section-title{
+      text-align:center;
+      padding:22px 18px 6px;
+    }
+    .section-title h2{
+      margin:0;
+      font-weight:600;
+      letter-spacing:0.5px;
+    }
+    .underline{
+      width:120px;height:4px;background:#bfbfbf;margin:10px auto 0;border-radius:2px;
+    }
+    .offers{
+      display:flex;
+      gap:0; 
+      margin:18px;
+      box-shadow: inset 0 1px 0 #ddd;
+    }
+    .offer{
+      flex:1 1 0;
+      padding:22px;
+      min-height:130px;
+      box-sizing:border-box;
+      color:#111;
+    }
+    .offer h3{
+      margin:0 0 8px 0;
+      font-size:16px;
+    }
+    .offer p{
+      margin:0;
+      font-size:13px;
+      color:var(--muted);
+      line-height:1.4;
+    }
+    .offer:nth-child(1){ background:#e9e9e9; }
+    .offer:nth-child(2){ background:#cfcfcf; }
+    .offer:nth-child(3){ background:#9d9d9d; color:#fff; }
+    .offer:nth-child(4){ background:#111; color:#fff; }
+    @media (max-width:760px){
+      .hero{ height:200px; }
+      .offers{ flex-direction:column; }
+      .offer{ min-height:80px; }
+      .brand-row{ padding:14px 12px; }
+      .hero{ margin:0 12px 12px 12px; }
+      .divider{ margin:12px; }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="site">
+    <div class="topbar">
+      <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Plans</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div style="font-size:13px;color:#666">Simple Nav</div>
+    </div>
+    <div class="brand-row">
+      <div>
+        <h1 class="site-title">MARKETING</h1>
+        <div class="site-sub">Template by w3.css</div>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="tag">Lorem ipsum</div>
+      <div class="hero-controls">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="section-title">
+      <h2>What We Offer</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="offers">
+      <div class="offer">
+        <h3>Design</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+
+      <div class="offer">
+        <h3>Branding</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+
+      <div class="offer">
+        <h3>Consultation</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+
+      <div class="offer">
+        <h3>Promises</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+    </div>
+    <div style="height:22px"></div>
+  </div>
+</body>
+</html>
